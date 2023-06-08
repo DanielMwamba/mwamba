@@ -4,7 +4,7 @@
 
 body{
   
-    fond : url ( './fond.jpg' );
+    background : url ( './fond.jpg' );
      famille de polices : Helvetica ;
      color: black;
 }
