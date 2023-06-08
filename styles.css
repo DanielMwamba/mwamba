@@ -4,8 +4,8 @@
 
 body{
   
-    background-color:green;
-     font-family: Helvetica;
+    fond : url ( './fond.jpg' );
+     famille de polices : Helvetica ;
      color: black;
 }
 
