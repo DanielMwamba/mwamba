@@ -45,9 +45,6 @@ nav a {
 }
 
 
-#titre_principal {
-  display: inline-block;
-}
 
 header h1 {
   font-style: italic;
@@ -174,15 +171,15 @@ nav a:hover {
 
 section {
   display: flex;
+  justify-content: space-between;
  
 }
 
 article {
 
   width: 625px;
-  margin-left: 10px;
-  margin-bottom: 55px;
-  padding-bottom: 10px;
+ 
+  
 }
 
 
@@ -202,7 +199,8 @@ aside {
   margin: 10px;
   color: black;
   font-size: 0.7em;
-  font-family: "Lucida Handwriting", cursive;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Helvetica Neue', Arial, sans-serif;
 }
 
 
@@ -255,6 +253,5 @@ footer h1 {
   font-weight: bold;
   color: #e98812;
 }
-
 
 
