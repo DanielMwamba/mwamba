@@ -1,6 +1,6 @@
 /* Eléments principaux de la page */
 
-body {
+/*body {
 
   background-color: black;
   font-family: Helvetica;
@@ -10,7 +10,25 @@ body {
   border-color: white;
   
 
+}*/
+
+body {
+
+  background-color: #1c1a19;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
 }
+
+
+
+
+
+
 
 #titre_principal {
 
@@ -26,11 +44,6 @@ nav a {
   text-transform: uppercase;
 }
 
-/* Header */
-
-header {
-  background: url('horizontale.png') repeat-x bottom;
-}
 
 #titre_principal {
   display: inline-block;
@@ -38,7 +51,7 @@ header {
 
 header h1 {
   font-style: italic;
-  text-shadow: 10px 15px 10px white;
+ 
   font-family: Cottonwood, "FB Reactor", fantasy;
   ;
   font-size: 2em;
@@ -74,15 +87,17 @@ nav {
 
 nav ul {
   list-style-type: none;
-  display: flx;
-  position: right;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  
 
 
 
 }
 
 nav li {
-  float: right;
   margin: 5px;
 }
 
@@ -103,8 +118,11 @@ nav a:hover {
   position: relative;
 }
 
-/* Bannière */
 
+
+/****************************** Bannière utilisation ultèrieure***********************************/
+
+/* 
 #banniere_image {
   margin-top: 15px;
   text-align: left;
@@ -117,6 +135,7 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
+
 #banniere_description {
 
   position: absolute;
@@ -126,12 +145,7 @@ nav a:hover {
   height: 20px;
   padding-top: 15px;
   padding-left: 15px;
-  background-color: rgb(24, 24, 24);
-  /* Pour les anciens navigateurs
-*/
-  background-color: rgba(24, 24, 24, 0.8);
-  color: white;
-  font-size: 0.8em;
+  background-color: rgb(24, 24, 24);  
 }
 
 .bouton_rouge {
@@ -153,6 +167,8 @@ nav a:hover {
 .bouton_rouge img {
   border: 0;
 }
+*****************************************************************************************************/
+
 
 /* Corps */
 
@@ -164,7 +180,6 @@ section {
 article {
 
   width: 625px;
-  height: ;
   margin-left: 10px;
   margin-bottom: 55px;
   padding-bottom: 10px;
@@ -211,12 +226,10 @@ aside img {
 
 footer {
   display: flex;
-  background: url('./horizontale.png') repeat-x top;
   padding-top: 25px;
 }
 
-footer p,
-footer ul {
+footer p, footer ul {
   font-size: 0.8em;
 }
 
@@ -239,6 +252,9 @@ footer h1 {
 
 #mes_realisation a {
   text-decoration: none;
-  color: #760001;
+  font-weight: bold;
+  color: #e98812;
 }
+
+
 
