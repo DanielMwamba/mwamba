@@ -20,7 +20,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  color: #333;
+  color: #f9f8f8;
   margin: 0;
 }
 
@@ -110,10 +110,7 @@ nav a:hover {
   border-bottom: 3px solid #760001;
 }
 
-.navigation {
-  margin: auto;
-  position: relative;
-}
+
 
 
 
@@ -171,17 +168,12 @@ nav a:hover {
 
 section {
   display: flex;
-  justify-content: space-between;
- 
-}
-
-article {
-
-  width: 625px;
- 
+  align-items: flex-start;
+  justify-content: space-around;
   
+  
+ 
 }
-
 
 
 article p {
@@ -189,9 +181,8 @@ article p {
 }
 
 aside {
-  position: relative;
-  width: 535px;
-  height: 600px;
+  
+ 
   background-color: white;
   box-shadow: 0px 15px 150px white;
   border-radius: 5px 80px 5px 80px;
@@ -252,6 +243,11 @@ footer h1 {
   text-decoration: none;
   font-weight: bold;
   color: #e98812;
+}
+
+#mes_realisation a:hover{
+  color: #760001;
+  border-bottom: 3px solid #760001;
 }
 
 
