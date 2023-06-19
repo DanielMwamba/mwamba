@@ -14,14 +14,16 @@
 
 body {
 
-  background-color: #1c1a19;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Helvetica Neue', Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  color: #f9f8f8;
+  color: #0f0e0e;
   margin: 0;
+  background-image: url(./title.jpg)
+  
 }
 
 
@@ -37,25 +39,34 @@ body {
 
 
 section h1,
-footer h1,
-nav a {
+footer h1{
   font-family: Dayrom, serif;
   font-weight: normal;
   text-transform: uppercase;
+  transition: .5s;
 }
 
 
 
-header h1 {
+nav a {
+  font-family: Dayrom, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+
+
+h1 {
   font-style: italic;
  
   font-family: Cottonwood, "FB Reactor", fantasy;
   ;
   font-size: 2em;
   font-weight: bold;
-  color: white;
-  border-radius: 50px;
+  color: rgb(9, 9, 9);
   padding: 20px;
+  
 }
 
 
@@ -76,8 +87,10 @@ header h2 {
 /* Navigation */
 
 nav {
-  font-size: 20px;
-  
+  font-size: 15px;
+  background: #898888;
+  margin:0 auto;
+  padding-left:0 10px;
   
 
 }
@@ -86,8 +99,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: end;
-  padding-bottom: 100px;
-  padding-left: 50px;
+  
   
 
 
@@ -100,15 +112,14 @@ nav li {
 
 nav a {
   font-size: 1.3em;
-  color: #878f99;
+  color: rgb(238, 238, 238);
   padding-bottom: 3px;
   text-decoration: none;
 }
-
-nav a:hover {
-  color: #760001;
-  border-bottom: 3px solid #760001;
+  nav  a:hover:first-child { 
+    background: #131212;
 }
+
 
 
 
@@ -180,6 +191,9 @@ article p {
   font-size: 0.8em;
 }
 
+article{
+  color: white;
+}
 aside {
   
  
@@ -243,11 +257,11 @@ footer h1 {
   text-decoration: none;
   font-weight: bold;
   color: #e98812;
+  transition: 2s;
 }
 
 #mes_realisation a:hover{
   color: #760001;
   border-bottom: 3px solid #760001;
 }
-
 
