@@ -1,20 +1,9 @@
-/* Eléments principaux de la page */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-/*body {
 
-  background-color: black;
-  font-family: Helvetica;
-  color: #878f99;
-  font-size: 25px;
-  border: 200px;
-  border-color: white;
-  
-
-}*/
 
 body {
 
-  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Helvetica Neue', Arial, sans-serif;
   font-size: 1.6rem;
@@ -23,14 +12,30 @@ body {
   color: #0f0e0e;
   margin: 0;
   background-image: url(./title.jpg)
-  
 }
 
+.text {
 
-
-
-
-
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 2em;
+  font-weight: 700;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
 
 #titre_principal {
 
@@ -39,11 +44,10 @@ body {
 
 
 section h1,
-footer h1{
+footer h1 {
   font-family: Dayrom, serif;
   font-weight: normal;
   text-transform: uppercase;
-  transition: .5s;
 }
 
 
@@ -57,22 +61,10 @@ nav a {
 
 
 
-h1 {
-  font-style: italic;
- 
-  font-family: Cottonwood, "FB Reactor", fantasy;
-  ;
-  font-size: 2em;
-  font-weight: bold;
-  color: rgb(9, 9, 9);
-  padding: 20px;
-  
-}
 
 
 header h2 {
-  font-family: Dayrom, serif;
-  font-size: 1.1em;
+  font-size: 0.7em;
   margin-top: 0px;
   font-weight: normal;
 }
@@ -88,22 +80,16 @@ header h2 {
 
 nav {
   font-size: 15px;
+  font-style: italic;
   background: #898888;
-  margin:0 auto;
-  padding-left:0 10px;
-  
-
+  margin: 0 auto;
+  padding-left: 0 10px;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: end;
-  
-  
-
-
-
 }
 
 nav li {
@@ -116,63 +102,11 @@ nav a {
   padding-bottom: 3px;
   text-decoration: none;
 }
-  nav  a:hover:first-child { 
-    background: #131212;
+
+
+nav a:hover:first-child {
+  background: #131212;
 }
-
-
-
-
-
-
-/****************************** Bannière utilisation ultèrieure***********************************/
-
-/* 
-#banniere_image {
-  margin-top: 15px;
-  text-align: left;
-  height: 300px;
-  max-width: auto;
-  border-radius: 5px;
-  background: url('./kadea.jpg') no-repeat;
-  position: relative;
-  box-shadow: 0px 4px 4px #1c1a19;
-  margin-bottom: 30px;
-}
-
-
-#banniere_description {
-
-  position: absolute;
-  bottom: 0;
-  border-radius: 0px 0px 5px 5px;
-  width: 100%;
-  height: 20px;
-  padding-top: 15px;
-  padding-left: 15px;
-  background-color: rgb(24, 24, 24);  
-}
-
-.bouton_rouge {
-  display: inline-block;
-  height: 25px;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  background: url('images/fond_degraderouge.png') repeat-x;
-  border: 1px solid #760001;
-  border-radius: 5px;
-  font-size: 1.2em;
-  text-align: center;
-  padding: 3px 8px 0px 8px;
-  color: white;
-  text-decoration: none;
-}
-
-.bouton_rouge img {
-  border: 0;
-}
-*****************************************************************************************************/
 
 
 /* Corps */
@@ -181,9 +115,8 @@ section {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  
-  
- 
+  font-family: 'Nanum Gothic', sans-serif;
+
 }
 
 
@@ -191,12 +124,13 @@ article p {
   font-size: 0.8em;
 }
 
-article{
+article {
   color: white;
 }
+
+
 aside {
-  
- 
+
   background-color: white;
   box-shadow: 0px 15px 150px white;
   border-radius: 5px 80px 5px 80px;
@@ -204,41 +138,51 @@ aside {
   margin: 10px;
   color: black;
   font-size: 0.7em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-  'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 
+#auteur_img {
+  max-width: 100%;
+  height: 0 auto;
 
-#photo_auteur {
-  text-align: center;
-  max-height: 10%x;
-  max-width: 1%x;
 }
 
-#photo_auteur img {
-  border: 1px solid #181818;
+.btn_reseau {
+  border: none;
+  background-color: white;
 }
 
-aside img {
-  margin-right: 5px;
-  text-align: center;
+.btn_reseau :hover {
+  box-shadow: 1px 1px 4px #777777;
+  -webkit-box-shadow: 1px 1px 4px #777777;
+  -moz-box-shadow: 1px 1px 4px #777777;
+  border-radius: 100px;
 }
 
-/* Footer */
+.btn_reseau :active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+
 
 footer {
   display: flex;
   padding-top: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
-footer p, footer ul {
+footer p,
+footer ul {
   font-size: 0.8em;
 }
 
 footer h1 {
   font-size: 1.1em;
   text-align: center;
+  color: white;
 }
 
 #mes_realisation {
@@ -260,8 +204,7 @@ footer h1 {
   transition: 2s;
 }
 
-#mes_realisation a:hover{
+#mes_realisation a:hover {
   color: #760001;
   border-bottom: 3px solid #760001;
 }
-
